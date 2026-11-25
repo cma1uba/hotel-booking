@@ -1,31 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
 @import "tailwindcss";
 
 @theme {
     --color-primary: #2563EB;
     --color-secondary: #FBBF24;
+    --color-accent: #10B981;
+}
+@layer base{
+    *{
+        padding: 0;
+        margin: 0;
+    }
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+h1{
+    font-family: "playfair", serif;
 }
 
 a{
     text-decoration: none;
     color: inherit;
-}
-
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 15px 8%;
-    background: indigo;
-    position: fixed;
-}
-.dashboard-btn{
-    padding: 6px 4px;
 }
